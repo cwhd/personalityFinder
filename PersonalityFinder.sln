@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26510.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PersonalityFinder", "..\PersonalityFinder\", "{56773834-2A22-498D-A4DE-AC71C6878FCE}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PersonalityFinder", ".", "{56773834-2A22-498D-A4DE-AC71C6878FCE}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_27178"
@@ -23,6 +23,12 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PersonalityFinder", "..\Per
 		VWDPort = "27178"
 		SlnRelativePath = "..\PersonalityFinder\"
 		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80B2763C-586C-4CF1-999C-E19C8A3D0240}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
